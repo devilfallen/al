@@ -18,16 +18,16 @@ HELP_2 = """
 
 Yetkili Kullanıcılar sohbette yönetici hakları olmadan bottaki yönetici haklarını kullanabilir.
 
-/auth [ᴜsᴇʀɴᴀᴍᴇ/ᴜsᴇʀ_ɪᴅ] : Bot için Yetkili Kullanıcı ekleme.
-/unauth [ᴜsᴇʀɴᴀᴍᴇ/ᴜsᴇʀ_ɪᴅ] : Yetkili Kullanıcı listesinden kullanıcı silme.
+/auth : Bot için Yetkili Kullanıcı ekleme.
+/unauth : Yetkili Kullanıcı listesinden kullanıcı silme.
 /authusers : Yetkili Kullanıcı listesi.
 
 ☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
 
 HELP_3 = """
-<u><b>Yayın Özelliği</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] :
+<u><b>Yayın Özelliği</b></u> :
 
-/broadcast [ᴍᴇssᴀɢᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ] : Botun sunulan sohbetlerine bir mesaj yayınlayın.
+/broadcast : Botun sunulan sohbetlerine bir mesaj yayınlayın.
 
 <u>ʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ ᴍᴏᴅᴇs :</u>
 <b>-pin</b> : Yayınlanan mesajlarınızı sunulan sohbetlere sabitler.
@@ -51,12 +51,12 @@ Botu Kullanmasını İstemediğiniz Grupları Kısıtlama .
 ☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
 
 HELP_5 = """
-<u><b>Kullanıcı Engelleme</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs]
+<u><b>Kullanıcı Engelleme :</b></u> 
 
 Kara listeye alınmış kullanıcıyı engeller, böylece bot komutlarını kullanamaz.
 
-/block [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : Kullanıcı bottan engellenir.
-/unblock [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : Kullanıcı engellemesi kaldırılır.
+/block : Kullanıcı bottan engellenir.
+/unblock : Kullanıcı engellemesi kaldırılır.
 /blockedusers : Engellenmiş kullanıcıların listesini gösterir.
 
 ☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
@@ -69,15 +69,15 @@ Kanalda ses/video akışı yapabilirsiniz.
 /cplay : İstenilen ses parçasını kanalda yayınlamaya başlar
 /cvplay : İstenilen görüntü parçasını kanalda yayınlamaya başlar.
 /cplayforce or /cvplayforce : Devam eden akışı durdurur ve istenen parçanın akışını başlatır.
-/channelplay [ᴄʜᴀᴛ ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ɪᴅ] ᴏʀ [ᴅɪsᴀʙʟᴇ] : Kanalı bir gruba bağlayın ve grup içinde gönderilen komutların yardımıyla parça akışını başlatın.
+/channelplay : Kanalı bir gruba bağlayın ve grup içinde gönderilen komutların yardımıyla parça akışını başlatın.
 
 ☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
 
 HELP_7 = """
-<u><b>Küresel Yasaklama Özelliği</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] :
+<u><b>Küresel Yasaklama Özelliği :</b></u>
 
-/gban [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : Kullanıcıyı sohbetlerden yasaklar ve botu kullanması engellenir.
-/ungban [ᴜsᴇʀɴᴀᴍᴇ ᴏʀ ʀᴇᴩʟʏ ᴛᴏ ᴀ ᴜsᴇʀ] : Küresel yasaklama kaldırılır.
+/gban : Kullanıcıyı sohbetlerden yasaklar ve botu kullanması engellenir.
+/ungban : Küresel yasaklama kaldırılır.
 /gbannedusers : Global Banlıların listesini gösterir.
 
 ☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
@@ -138,8 +138,8 @@ HELP_12 = """
 HELP_13 = """
 <b><u>Parçayı İlerisar-Gerial :</b></u>
 
-/seek [ᴅᴜʀᴀᴛɪᴏɴ ɪɴ sᴇᴄᴏɴᴅs] : Akışı belirli bir süreye kadar ileriye doğru arayın.
-/seekback [ᴅᴜʀᴀᴛɪᴏɴ ɪɴ sᴇᴄᴏɴᴅs] : Akışı belirli bir süreye kadar geriye doğru arayın.
+/seek : Akışı belirli bir süreye kadar ileriye doğru arayın.
+/seekback : Akışı belirli bir süreye kadar geriye doğru arayın.
 
 ☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
 
@@ -153,7 +153,7 @@ HELP_14 = """
 HELP_15 = """
 <b><u>Hız Komutları :</b></u>
 
-Devam eden akışın oynatma hızını kontrol edebilirsiniz. [ᴀᴅᴍɪɴs ᴏɴʟʏ]
+Devam eden akışın oynatma hızını kontrol edebilirsiniz.
 
 /speed or /playback : Grupta ses çalma hızını ayarlamak için.
 /cspeed or /cplayback : Kanalda ses çalma hızını ayarlamak için.
