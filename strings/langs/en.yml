@@ -178,16 +178,16 @@ stream_1 : "➲ <b>Sᴛᴀʀᴛᴇᴅ Sᴛʀᴇᴀᴍɪɴɢ |</b>\n\n<b>‣ Tɪ�
 stream_2 : "➲ <b>Sᴛᴀʀᴛᴇᴅ Sᴛʀᴇᴀᴍɪɴɢ |</b>\n\n<b>‣ Sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> ʟɪᴠᴇ sᴛʀᴇᴀᴍ [ᴜʀʟ]\n<b>‣ Rᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {0}"
 
 
-CLOSE_BUTTON  : "ᴄʟᴏsᴇ"
-BACK_BUTTON : "ʙᴀᴄᴋ"
+CLOSE_BUTTON  : "Kapat"
+BACK_BUTTON : "Geri"
 
-S_B_1 : "Aᴅᴅ ᴍᴇ"
-S_B_2 : "Sᴜᴘᴘᴏʀᴛ"
-S_B_3 : "Aᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ"
-S_B_4 : "Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅs"
-S_B_5 : "Dᴇᴠᴇʟᴏᴘᴇʀ"
-S_B_6 : "Cʜᴀɴɴᴇʟ"
-S_B_7 : "Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ"
+S_B_1 : "Ekle Beni"
+S_B_2 : "DESTEK"
+S_B_3 : "Beni Grubuna Ekle"
+S_B_4 : "Yardım & Komutlar"
+S_B_5 : "SAHİP"
+S_B_6 : "KANAL"
+S_B_7 : "Bot YAzılımı"
 S_B_8 : "👀 ʏᴏᴜᴛᴜʙᴇ 👀"
 S_B_9 : "🥀 sᴜᴩᴩᴏʀᴛ 🥀"
 
