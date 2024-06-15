@@ -1,15 +1,17 @@
 HELP_1 = """<b><u>Yönetici Komutları :</b></u>
 
-Sadece Ekle <b>ᴄ</b> Grup İçerisinde Kullanılacak Başlangıç Komutları.
+* Kullanılacak Başlangıç Komutları *
 
 /play : İstenilen parçayı görüntülü sohbette yayınlamaya başlar.
 /playforce : Devam eden akışı durdurur ve istenen parçanın akışını başlatır.
 /pause : Mevcut oynatma akışını duraklatır.
 /resume : Duraklatılan akışı devam ettirir.
 /skip : Mevcut oynatma akışını atla ve sıradaki parçayı oynatmaya başlar.
-/end ᴏʀ /stop : Listeyi temizler ve mevcut oynatma akışını sonlandırır.
+/end veya /stop : Listeyi temizler ve mevcut oynatma akışını sonlandırır.
+/shuffle : Listeyi karıştırır.
 /player : Şarkı ayrıntılarını ve oynatma panelini gösterir.
 /queue : Sıraya alınmış parçaların listesini gösterir.
+/song : Youtube'dan herhangi bir parçayı mp3 veya mp4 formatında indirir.
 
 ☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®](https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
 
