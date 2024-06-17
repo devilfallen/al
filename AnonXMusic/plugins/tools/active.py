@@ -14,7 +14,7 @@ from AnonXMusic.utils.database import (
 
 @app.on_message(filters.command(["activevc", "activevoice"]) & SUDOERS)
 async def activevc(_, message: Message):
-    mystic = await message.reply_text("» ɢᴇᴛᴛɪɴɢ ᴀᴄᴛɪᴠᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛs ʟɪsᴛ...")
+    mystic = await message.reply_text("» Aktif Sohbet Listesi Oluşturuluyor...")
     served_chats = await get_active_chats()
     text = ""
     j = 0
@@ -46,7 +46,7 @@ async def activevc(_, message: Message):
 
 @app.on_message(filters.command(["activev", "activevideo"]) & SUDOERS)
 async def activevi_(_, message: Message):
-    mystic = await message.reply_text("» ɢᴇᴛᴛɪɴɢ ᴀᴄᴛɪᴠᴇ ᴠɪᴅᴇᴏ ᴄʜᴀᴛs ʟɪsᴛ...")
+    mystic = await message.reply_text("» Aktif Sohbet Listesi Oluşturuluyor...")
     served_chats = await get_active_video_chats()
     text = ""
     j = 0
