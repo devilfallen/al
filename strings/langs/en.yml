@@ -178,8 +178,8 @@ stream_1 : "➲ <b>Yayın Başladı |</b>\n\n<b>‣ Başlık :</b> <a href={0}>{
 stream_2 : "➲ <b>Yayın Başladı |</b>\n\n<b>‣ Tayın Tipi :</b> CAnlı Yayın [ᴜʀʟ]\n<b>‣ Talep Eden 😎 :</b> {0}"
 
 
-CLOSE_BUTTON  : "Kapat"
-BACK_BUTTON : "Geri"
+CLOSE_BUTTON  : "KAPAT"
+BACK_BUTTON : "GERİ"
 
 S_B_1 : "Ekle Beni"
 S_B_2 : "DESTEK"
@@ -231,7 +231,7 @@ SA_B_1 : "ᴏᴠᴇʀᴀʟʟ sᴛᴀᴛs"
 SA_B_2 : "ɢᴇɴᴇʀᴀʟ"
 SA_B_3 : "ᴏᴠᴇʀᴀʟʟ"
 
-QU_B_1 : "ǫᴜᴇᴜᴇ"
+QU_B_1 : "LİSTE"
 QU_B_2 : " {0} —————————— {1}"
 
 sudo_1 : "» {0} ɪs ᴀʟʀᴇᴀᴅʏ ɪɴ sᴜᴅᴏ ᴜsᴇʀs ʟɪsᴛ."
