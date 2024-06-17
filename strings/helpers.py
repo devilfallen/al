@@ -1,163 +1,132 @@
-HELP_1 = """<b><u>Yönetici Komutları :</b></u>
+HELP_1 = """
+**ADMİN KOMUTLARI:**
 
-* Kullanılacak Başlangıç Komutları *
+**/c** komutlarını kanalda kullanabilmek için, komutların başına **c** ekleyin.
 
-/play : İstenilen parçayı görüntülü sohbette yayınlamaya başlar.
-/playforce : Devam eden akışı durdurur ve istenen parçanın akışını başlatır.
-/pause : Mevcut oynatma akışını duraklatır.
-/resume : Duraklatılan akışı devam ettirir.
-/skip : Mevcut oynatma akışını atla ve sıradaki parçayı oynatmaya başlar.
-/end veya /stop : Listeyi temizler ve mevcut oynatma akışını sonlandırır.
-/shuffle : Listeyi karıştırır.
-/player : Şarkı ayrıntılarını ve oynatma panelini gösterir.
-/queue : Sıraya alınmış parçaların listesini gösterir.
-/song : Youtube'dan herhangi bir parçayı mp3 veya mp4 formatında indirir.
-
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®]...(https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
-
+**/pause veya /durdur**: Çalan akışı duraklatır.
+**/resume veya /devam**: Duraklatılmış akışı devam ettirir.
+**/skip veya /atla **: Çalan akışı atlar ve sıradaki parçayı çalmaya başlar.
+**/end** veya **/bitir**: Sıradaki parçayı atlar ve çalan akışı sonlandırır.
+**/player**: Etkileşimli bir oynatıcı paneli alır.
+**/queue veya /liste**: Sıradaki parçaların listesini gösterir.
+"""
 HELP_2 = """
-<b><u>Yetkili Kullanıcılar :</b></u>
+**YETKİLİ KULLANICILAR:**
 
-Yetkili Kullanıcılar sohbette yönetici hakları olmadan bottaki yönetici haklarını kullanabilir.
-
-/auth : Bot için Yetkili Kullanıcı ekleme.
-/unauth : Yetkili Kullanıcı listesinden kullanıcı silme.
-/authusers : Yetkili Kullanıcı listesi.
-
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®]...(https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
-
+**/auth veya /ver  [kullanıcı adı/kullanıcı_ID]**: Bir kullanıcıyı botun yetkili listesine ekler.
+**/unauth veya /al [kullanıcı adı/kullanıcı_ID]**: Bir kullanıcıyı yetkili kullanıcılar listesinden çıkarır.
+**/authusers veya /yetkili**: Yetkili kullanıcıların listesini gösterir.
+"""
 HELP_3 = """
-<u><b>Yayın Özelliği</b></u> :
+**YAYIN YAPMA ÖZELLİĞİ**
 
-/broadcast : Botun sunulan sohbetlerine bir mesaj yayınlayın.
+**/broadcast veya /reklam [mesaj veya bir mesaja yanıt]**: Bir mesajı sunucu sohbetlerine yayınlar.
 
-<u>ʙʀᴏᴀᴅᴄᴀsᴛɪɴɢ ᴍᴏᴅᴇs :</u>
-<b>-pin</b> : Yayınlanan mesajlarınızı sunulan sohbetlere sabitler.
-<b>-pinloud</b> : Yayınlanan mesajınızı sunulan sohbetlere sabitler ve üyelere bildirim gönderir.
-<b>-user</b> : Mesajı botunuzu başlatan kullanıcılara yayınlar.
-<b>-assistant</b> : Mesajınızı botun asistan hesabından yayınlayın.
-<b>-nobot</b> : Botu mesajı yayınlamamaya zorlar..
+Yayın modları:
+**-pin**: Yayınlanan mesajları sunucu sohbetlerinde sabitler.
+**-pinloud**: Yayınlanan mesajları sunucu sohbetlerinde sabitler ve üyelere bildirim gönderir.
+**-user**: Mesajı botunuza başlatan kullanıcılara yayınlar.
+**-assistant**: Botunuzun asistan hesabından mesajı yayınlar.
+**-nobot**: Mesajın yayınlanmasını engeller.
 
-<b>ᴇxᴀᴍᴩʟᴇ:</b> <code>/broadcast -user -assistant -pin TEST YAYINI</code>
+Örnek: /yayın -user -assistant -pin Test yayını
+"""
+HELP_4 = """
+**CHAT BLACKLIST ÖZELLİĞİ:** [Sadece süper yöneticiler için]
 
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®]...(https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+Çöp sohbetlerinizi botumuzda kullanmayı kısıtlayın.
 
-HELP_4 = """<u><b>Kara Liste Özelliği</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs]
-
-Botu Kullanmasını İstemediğiniz Grupları Kısıtlama .
-
-/blacklistchat [ᴄʜᴀᴛ ɪᴅ] : Kara listeye alır.
-/whitelistchat [ᴄʜᴀᴛ ɪᴅ] : Beyaz listeye alır.
-/blacklistedchat : Kara listeye alınmış grupları göterir.
-
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®]...(https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
-
+/blacklistchat [sohbet ID] : Bir sohbeti bot kullanımından engeller.
+/whitelistchat [sohbet ID] : Kara listeye alınmış sohbeti beyaz listeye alır.
+/blacklistedchat : Kara listeye alınmış sohbetlerin listesini gösterir.
+"""
 HELP_5 = """
-<u><b>Kullanıcı Engelleme :</b></u> 
+**KULLANICI ENGELLEME:**
 
-Kara listeye alınmış kullanıcıyı engeller, böylece bot komutlarını kullanamaz.
+Kara listeye alınmış kullanıcıları görmezden gelmeye başlar, böylece bot komutlarını kullanamazlar.
 
-/block : Kullanıcı bottan engellenir.
-/unblock : Kullanıcı engellemesi kaldırılır.
+/block [kullanıcı adı veya kullanıcıya yanıt] : Kullanıcıyı botumuzdan engeller.
+/unblock [kullanıcı adı veya kullanıcıya yanıt] : Engellenmiş kullanıcının engelini kaldırır.
 /blockedusers : Engellenmiş kullanıcıların listesini gösterir.
-
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®]...(https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
-
+"""
 HELP_6 = """
-<u><b>Kanal Oynatma Komutları :</b></u>
+**KANAL OYNATMA KOMUTLARI:**
 
-Kanalda ses/video akışı yapabilirsiniz.
+Kanallarda ses/video yayını yapabilirsiniz.
 
-/cplay : İstenilen ses parçasını kanalda yayınlamaya başlar
-/cvplay : İstenilen görüntü parçasını kanalda yayınlamaya başlar.
-/cplayforce or /cvplayforce : Devam eden akışı durdurur ve istenen parçanın akışını başlatır.
-/channelplay : Kanalı bir gruba bağlayın ve grup içinde gönderilen komutların yardımıyla parça akışını başlatın.
-
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®]...(https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+/cplay : Kanalın video sohbetinde istenilen ses parçasının yayınını başlatır.
+/cvplay : Kanalın video sohbetinde istenilen video parçasının yayınını başlatır.
+/cplayforce veya /cvplayforce : Devam eden yayını durdurur ve istenilen parçanın yayınını başlatır.
+/channelplay [sohbet kullanıcı adı veya ID] veya [devre dışı] : Kanalı bir gruba bağlar ve grup tarafından gönderilen komutlarla parçaların yayınını başlatır.
+"""
 
 HELP_7 = """
-<u><b>Küresel Yasaklama Özelliği :</b></u>
+**GLOBAL BAN ÖZELLİĞİ:** [Sadece süper yöneticiler için]
 
-/gban : Kullanıcıyı sohbetlerden yasaklar ve botu kullanması engellenir.
-/ungban : Küresel yasaklama kaldırılır.
-/gbannedusers : Global Banlıların listesini gösterir.
-
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®]...(https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
-
+/gban [kullanıcı adı veya kullanıcıya yanıt] : Tüüm sunucu sohbetlerinden kullanıcıyı global olarak engeller ve bot kullanımını ondan engeller.
+/ungban [kullanıcı adı veya kullanıcıya yanıt] : Global olarak yasaklanan kullanıcının yasağını kaldırır.
+/gbannedusers : Global olarak yasaklanan kullanıcıların listesini gösterir.
+"""
 HELP_8 = """
-<b><u>Döngü Akışı :</b></u>
+**LOOP STREAM:**
 
-<b>Devam eden akışı döngü içinde başlatır </b>
+Ongoing yayını döngüde başlatır.
 
-/loop [enable/disable] : Etkinleştirme/Devredışı akışı döngüye alır.
+/loop [enable/disable] : Ongoing yayın için döngüyü etkinleştirir/devre dışı bırakır.
 /loop [1, 2, 3, ...] : Verilen değer için döngüyü etkinleştirir.
-
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®]...(https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
-
+"""
 HELP_9 = """
-<u><b>Bakım Modülü</b></u> [ᴏɴʟʏ ғᴏʀ sᴜᴅᴏᴇʀs] :
+**BAKIM MODU:** [Sadece süper yöneticiler için]
 
-/logs : Botun günlüklerini al.
+/logs : Botun aktivitelerinin günlüklerini alır.
 
-/logger [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ] : Bot, gerçekleşen etkinlikleri kaydetmeye başlayacak.
+/logger [enable/disable] : Botun aktivitelerini günlüklemeye başlar/devre dışı bırakır.
 
-/maintenance [ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ] : Botunuzun bakım modunu etkinleştirin veya devre dışı bırakın.
-
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®]...(https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
-
+/maintenance [enable/disable] : Botun bakım modunu etkinleştirir/devre dışı bırakır.
+"""
 HELP_10 = """
-<b><u>Ping & İstatistikler :</b></u>
+**PING & STATS:**
 
 /start : Müzik botunu başlatır.
-/help : Komutların açıklamasını içeren yardım menüsü alın.
+/help : Komutların açıklamalarıyla yardım menüsünü alır.
 
 /ping : Botun ping ve sistem istatistiklerini gösterir.
 
 /stats : Botun genel istatistiklerini gösterir.
-
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®]...(https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
-
+"""
 HELP_11 = """
-<u><b>Oynatma Komutları :</b></u>
+**PLAY COMMANDS:**
 
-<b>v :</b> Video oynatma anlamına gelir.
-<b>force :</b> Hemen oynatma komutu.
+**v :** Video play için kullanılır.
+**force :** Zorla oynatma için kullanılır.
 
-/play ᴏʀ /vplay : İstenilen parçayı görüntülü sohbette yayınlamaya başlar.
+/play , /vplay veya /oynat veya /voynat : Video sohbetinde istenilen parçayı çalmaya başlar.
 
-/playforce ᴏʀ /vplayforce : Devam eden akışı durdurur ve istenen parçanın akışını başlatır.
-
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®]...(https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
-
+/playforce veya /vplayforce : Devam eden yayını durdurur ve istenilen parçayı çalmaya başlar.
+"""
 HELP_12 = """
-<b><u>Sırayı karıştır :</b></u>
+**SHUFFLE QUEUE:**
 
-/shuffle : Karıştır.
-/queue : Sıraya alınmış parçaların listesini gösterir.
-
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®]...(https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+/shuffle : Sıradaki parçaları karıştırır.
+/queue : Karıştırılmış sırayı gösterir.
+"""
 
 HELP_13 = """
-<b><u>Parçayı İlerisar-Gerial :</b></u>
+**SEEK STREAM:**
 
-/seek : Akışı belirli bir süreye kadar ileriye doğru arayın.
-/seekback : Akışı belirli bir süreye kadar geriye doğru arayın.
-
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®]...(https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
-
+/seek [saniye cinsinden süre] : Yayını belirtilen süreye atlar.
+/seekback [saniye cinsinden süre] : Yayını belirtilen süre kadar geri alır.
+"""
 HELP_14 = """
-<b><u>Şarkı indir :</b></u>
+**SONG DOWNLOAD:**
 
-/song [sᴏɴɢ ɴᴀᴍᴇ/ʏᴛ ᴜʀʟ] : Youtube'dan herhangi bir parçayı mp3 veya mp4 formatında indirir.
-
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®]...(https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
-
+/song veya /bul [şarkı adı/YouTube URL] : YouTube'dan herhangi bir parçayı MP3 veya MP4 formatında indirir.
+"""
 HELP_15 = """
-<b><u>Hız Komutları :</b></u>
+**SPEED COMMANDS:**
 
-Devam eden akışın oynatma hızını kontrol edebilirsiniz.
+Ongoing stream'un çalma hızını kontrol edebilirsiniz. [Yalnızca yöneticiler]
 
-/speed or /playback : Grupta ses çalma hızını ayarlamak için.
-/cspeed or /cplayback : Kanalda ses çalma hızını ayarlamak için.
-
-☆✧....𝐁𝐘🫧 » [⏤𝐇𝐀𝐘𝐀𝐓𝐢 ®]...(https://t.me/AdanaliMuhendis)....🥀🥀✧☆"""
+/speed veya /playback : Grubun ses çalma hızını ayarlamak için.
+/cspeed veya /cplayback : Kanalın ses çalma hızını ayarlamak için.
+"""
