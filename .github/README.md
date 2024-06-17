@@ -3,7 +3,7 @@
 </h2>
 
 <p align="center">
-  <img src="[https://telegra.ph/Alem-Music-06-01](https://te.legra.ph/file/4c896584b592593c00aa8.jpg)">
+  <img src="https://te.legra.ph/file/4c896584b592593c00aa8.jpg">
 </p>
 
 
